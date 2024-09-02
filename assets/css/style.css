@@ -149,12 +149,6 @@ section{
 	text-align: center;
 	/*margin-bottom: 45px;*/
 }
-.img-responsive {
-    display: block; /* makes the image a block element */
-    margin: 0 auto; /* centers the block element horizontally */
-    max-width: 100%; /* makes the image responsive */
-    height: auto; /* maintains aspect ratio */
-  }
 .vira-card .vira-card-header{
 	margin-bottom: 45px;
 }
