@@ -145,7 +145,7 @@ section{
 }
 
 /*Vira Card*/
-.vira-card{
+.vira-card .vira-card-header{
 	text-align: center;
 	/*margin-bottom: 45px;*/
 }
