@@ -135,7 +135,7 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form action="mailto:pratik@knowflowconsulting.com?subject=Contact%20Form&body=Website" method="post" enctype="text/plain" onsubmit="return validateForm()"></form>
+								<form action="mailto:pratik@knowflowconsulting.com?subject=Contact%20Form&body=Website" method="post" enctype="text/plain" onsubmit="></form>
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -212,22 +212,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-			<script>
-				function validateForm() {
-					// Basic example of JavaScript validation
-					var name = document.getElementById("name").value;
-					var email = document.getElementById("email").value;
-					var message = document.getElementById("message").value;
-				
-					if (name === "" || email === "" || message === "") {
-						alert("All fields must be filled out");
-						return false;
-					}
-				
-					return true; // Form is valid
-				}
-				</script>
 
 	</body>
 </html>
